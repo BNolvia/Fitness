@@ -13,7 +13,7 @@
     <ImageView
         android:id="@+id/squarts_image"
         android:layout_width="250sp"
-        android:layout_height="40sp"
+        android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/tripleimpact" />
@@ -121,12 +121,27 @@
         </RelativeLayout>
     </RelativeLayout>
 
+
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/Layout1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/status_container_layout"
-        android:layout_marginTop="20sp"
-        android:orientation="vertical">
+        android:layout_marginTop="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+
+        <LinearLayout
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/status_container_layout"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
 
         <Button
             android:id="@+id/start_button"
@@ -134,7 +149,8 @@
             android:background="@drawable/button_green"
             android:onClick="onStartClick"
             android:text="@string/start"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_width="113dp" />
 
         <Button
             android:id="@+id/continue_button"
@@ -142,7 +158,8 @@
             android:background="@drawable/button_green"
             android:onClick="onContinueClick"
             android:text="@string/continue_text"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_width="113dp" />
 
         <Button
             android:id="@+id/start_new_button"
@@ -150,27 +167,64 @@
             android:background="@drawable/button_green"
             android:onClick="onStartNewClick"
             android:text="@string/start_new_text"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_width="113dp" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/status_container_layout"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
+
 
         <Button
             android:id="@+id/progress_button"
             style="@style/homeButton"
             android:background="@drawable/button_grey"
             android:onClick="onProgressClick"
-            android:text="@string/my_progress" />
+            android:text="@string/my_progress"
+            android:layout_width="113dp" />
 
         <Button
             android:id="@+id/instructions_button"
             style="@style/homeButton"
             android:background="@drawable/button_grey"
             android:onClick="onInstructionsClick"
-            android:text="@string/instructions_text" />
+            android:text="@string/instructions_text"
+            android:layout_width="113dp" />
 
         <Button
             android:id="@+id/credits_button"
             style="@style/homeButton"
             android:background="@drawable/button_grey"
             android:onClick="onCreditsClick"
-            android:text="@string/credits" />
+            android:text="@string/credits"
+            android:layout_width="113dp" />
     </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_container_layout"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calorias"
+        style="@style/homeButton"
+        android:background="@drawable/button_grey"
+        android:onClick="onCreditsCalorias"
+        android:text="@string/Calorias"
+        android:layout_width="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
