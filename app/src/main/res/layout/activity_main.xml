@@ -226,5 +226,6 @@
         android:text="@string/Calorias"
         android:layout_width="130dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp" />
 </RelativeLayout>

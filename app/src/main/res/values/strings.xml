@@ -39,4 +39,26 @@
     <string name="average">6-10 push-ups, squats and sit-ups</string>
     <string name="above_average">20 or more push-ups, squats and sit-ups</string>
     <string name="Calorias">Calorias</string>
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_manzana">Manzana</string>
+    <string name="title_activity_pera">Pera</string>
+    <string name="title_activity_coca_cola_light">Coca Cola Light</string>
+    <string name="title_activity_platano">Plátano</string>
+    <string name="title_activity_uva">Uva</string>
+    <string name="title_activity_naranja">Naranja</string>
+    <string name="title_activity_coca_cola">CocaCola</string>
+    <string name="title_activity_agua">Agua</string>
+    <string name="title_activity_horchata">Horchata</string>
+    <string name="title_activity_cerveza">Cerveza</string>
+    <string name="title_activity_sabritas">Sabritas</string>
+    <string name="title_activity_chocolate">Chocolate</string>
+    <string name="title_activity_galletas">Galletas</string>
+    <string name="title_activity_caramelos">Caramelos</string>
+    <string name="title_activity_frituras">Frituras</string>
+    <string name="title_activity_acerca">Acerca</string>
+
 </resources>

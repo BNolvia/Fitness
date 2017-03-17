@@ -139,6 +139,11 @@ public class MainActivity extends Activity {
         startActivityForResult(intent, SELECT_LEVEL);
     }
 
+    public void onCreditsCalorias(View v){
+        Intent intent = new Intent(this, Calorias.class);
+        startActivityForResult(intent, SELECT_LEVEL);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(resultCode == RESULT_OK){

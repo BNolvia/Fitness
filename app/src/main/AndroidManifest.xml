@@ -30,6 +30,18 @@
             android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.ProgressActivity">
         </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.berenice.fitness.Calorias">
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.berenice.fitness.Manzana">
+        </activity>
+
+
         <activity
             android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.LevelActivity">
